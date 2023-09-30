@@ -1,0 +1,31 @@
+{
+  "title": "やってみたい/やってみたリスト",
+  "closed": false,
+  "archived": false,
+  "created_at": "2022-05-13",
+  "comments": [
+    {
+      "author": "yasuna",
+      "created_at": "2022-05-13",
+      "body_markdown": "作成してみたい記事\n・クラウドプラクティショナー合格までにやったこと\n・育休中の勉強ってどうやってんの？\n・awsで小売業の業務改善どこまでできるの？",
+      "body_updated_at": "2022-05-13"
+    },
+    {
+      "author": "yasuna",
+      "created_at": "2022-05-13",
+      "body_markdown": "今までやってみた勉強あれこれ\n・Flutter\n・AdobeXD\n・Adobe Fresco\n・awsクラウドプラクティショナー(2022.4合格)\n・awsソリューションアーキテクト(勉強中)",
+      "body_updated_at": "2022-05-15"
+    },
+    {
+      "author": "yasuna",
+      "created_at": "2022-05-13",
+      "body_markdown": "今後やってみたいこと\n・awsで小売業のDX開発\n・aws amplify studioで個人開発・運用\n・aws Lambdaでサーバレス運用できるBot作成\n・figmaの基礎学習\n・Reactの基礎学習\n・CentOSで遊ぶ",
+      "body_updated_at": "2022-05-15"
+    },
+    {
+      "author": "yasuna",
+      "created_at": "2022-05-13",
+      "body_markdown": "やるか分からんけど興味あること\n・コンピュータサイエンスの学位"
+    }
+  ]
+}
