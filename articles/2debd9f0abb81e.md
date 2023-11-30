@@ -2,7 +2,7 @@
 title: "WSL2からのWebsoket接続をCursorで解決した話"
 emoji: "⛵"
 type: "tech" # Wech: 技術記事 / idea: アイデア
-topics: [wsl2,obs,python,初心者]
+topics: [cursor,chatgot,wsl2,初心者]
 published: false
 ---
 # はじめに
