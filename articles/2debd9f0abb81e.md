@@ -3,7 +3,7 @@ title: "WSL2からのWebsoket接続をCursorで解決した話"
 emoji: "⛵"
 type: "tech" # Wech: 技術記事 / idea: アイデア
 topics: [cursor,chatgot,wsl2,初心者]
-published: false
+published: true
 ---
 # はじめに
 最近発売された「AITuberを作ってみたら生成AIプログラミングがよくわかった件」という本を買いました！
