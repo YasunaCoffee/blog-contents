@@ -2,7 +2,7 @@
 title: "きゃらチャットAIを公開するまでにやったことまとめ"
 emoji: "🧚‍♀"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [ai,chatgpt,chatvrm]
+topics: [ai,chatgpt,chatvrm, 個人開発]
 published: false
 ---
 
