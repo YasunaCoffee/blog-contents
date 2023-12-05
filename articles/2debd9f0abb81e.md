@@ -2,7 +2,7 @@
 title: "AITuberのためのOBS環境構築(WSL2編)"
 emoji: "⛵"
 type: "tech" # Wech: 技術記事 / idea: アイデア
-topics: [cursor,chatgot,wsl2,初心者]
+topics: [obs,chatgpt,wsl2,初心者]
 published: true
 ---
 # はじめに
@@ -22,7 +22,7 @@ https://zenn.dev/yasuna/articles/b3eae0ed00e665
 WSL2にvenvで仮想環境を整える方法はこちら
 https://zenn.dev/yasuna/articles/a02113a90e2b39
 
-# WSL2からWindows上のWebsoketへ接続したい
+# WSL2からWindows上のOBSへ接続したい
 今回はYoutube配信準備として**WSL2でPythonを実行してOBSのWebsoketサーバーに接続できるか**どうか試してみます。
 ちなみにOBS Studio(OBS)は配信ができるソフトウェアです。
 https://obsproject.com/ja/download
