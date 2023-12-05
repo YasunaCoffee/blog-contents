@@ -1,5 +1,5 @@
 ---
-title: "WSL2からのWebsoket接続をCursorで解決した話"
+title: "AITuberのためのOBS環境構築(WSL2編)"
 emoji: "⛵"
 type: "tech" # Wech: 技術記事 / idea: アイデア
 topics: [cursor,chatgot,wsl2,初心者]
