@@ -5,7 +5,8 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [ai,chatgpt,chatvrm, 個人開発]
 published: true
 ---
-
+これは「[テックキャンプ公式コミュニティ Advent Calendar 2023](https://adventar.org/calendars/8952
+)」の8日目の記事です。
 # はじめに
 近年、生成AIというビックウェーブがやってきました。毎日の生成AIに関する世界的な技術革新に驚くばかりです。
 わたしも生成AIトレンドを追っているひとりですが、トレンドを追っている中で「AITuber」という存在を知りました。
