@@ -5,9 +5,9 @@ published: false # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:
   - introduction
-  - 3dvrm
   - chatgptconcept
   - chatgptscript
+  - 3dvrm
   - 3dsoftware
   - tts
   - obs
