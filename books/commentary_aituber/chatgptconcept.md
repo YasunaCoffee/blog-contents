@@ -1,5 +1,5 @@
 ---
-title: "ChatGPTとAITuberのコンセプトを作ろう"
+title: "[WIP]ChatGPTとAITuberのコンセプトを作ろう"
 ---
 # はじめに
 この章ではAITuberのコンセプトづくりをするためにChatGPT-4を使っていきます。

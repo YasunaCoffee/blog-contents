@@ -1,5 +1,5 @@
 ---
-title: "ChatGPTと台本を作ろう"
+title: "[WIP]ChatGPTと台本を作ろう"
 ---
 # はじめに
 この章では解説系AITuberの動画を作るための台本づくりをするためにChatGPT-4を使っていきます。
