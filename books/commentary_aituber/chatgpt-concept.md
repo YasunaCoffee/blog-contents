@@ -1,8 +1,8 @@
 ---
-title: "ChatGPTとNotionの連携"
+title: "ChatGPTとAITuberのコンセプトを作ろう"
 ---
 # はじめに
-この章ではYoutube動画を作るためのコンセプト案をChatGPT-4を使って行います。
+この章ではAITuberのコンセプトづくりをするためにChatGPT-4を使っていきます。
 
 :::message
 この本は現在執筆中です。いいねで応援していただけるとやる気がでます。
