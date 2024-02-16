@@ -10,5 +10,5 @@ https://github.com/litagin02/Style-Bert-VITS2
 
 ## Style-Bert-VITS2の使い方
 :::message
-この本は現在執筆中です。いいねで応援していただけるとやる気がでます。
+この本は現在執筆中です。いいねで応援していただけると励みになります。
 :::
