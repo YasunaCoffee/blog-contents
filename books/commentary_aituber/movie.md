@@ -10,6 +10,7 @@ https://vrew.voyagerx.com/ja/
 基本的に無料で使うことができます。
 
 ## Vrewの使い方
+![](https://storage.googleapis.com/zenn-user-upload/3bc2913ecac4-20240217.png)
 :::message
 この本は現在執筆中です。いいねで応援していただけると励みになります。
 :::
