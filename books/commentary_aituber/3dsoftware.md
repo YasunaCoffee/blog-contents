@@ -12,11 +12,15 @@ https://booth.pm/ja/items/1272298
 初期設定はこちらの本では割愛させていただきます。
 https://malaybaku.github.io/VMagicMirror/
 
+ホームにある「VRMロード」の「**PC上のファイルをロード**」から
+先ほどVroid Studioから書き出した**VRMファイル**を読み込みましょう。
+少しロードに時間がかかりますが、３Dキャラクターが画面に表示されます。
+![](https://storage.googleapis.com/zenn-user-upload/507a6588301e-20240217.png)
 
-以下のように作成した３Dキャラクターが表示できるようにおきましょう。
+以下のように作成した３Dキャラクターが表示できたら準備OKです。
 ![](https://storage.googleapis.com/zenn-user-upload/815e0a0e6a55-20240217.png)
 
-ここでは、音声データから3Dキャラが話しているように口をパクパクさせるための設定を紹介していきます。
+次に、音声データから3Dキャラが話しているように口をパクパクさせるための設定をしていきます。
 
 ## 再生した音声と「リップシンク」する方法
 ここでは、音声生成した音声データと3Dキャラクターの口の動きを合わせる設定をしていきます。
@@ -34,7 +38,7 @@ https://malaybaku.github.io/VMagicMirror/
 以下の左側にある「ウィンドウ」「顔・表情」の設定が画像のとおりになっているか確認しましょう。
 :::message
 ・背景を透過
-・リップシンク(VoiceMeeter Outputになっている)
+・リップシンク(**VoiceMeeter Outputを選択**)
 :::
 ![](https://storage.googleapis.com/zenn-user-upload/ccb843003957-20240217.png)
 
