@@ -1,5 +1,5 @@
 ---
-title: "[WIP]3Dキャラを動かすソフトを導入しよう"
+title: "3Dキャラを動かすソフトを導入しよう"
 ---
 # はじめに
 この章では3Dキャラクターを動かすためのソフトを導入していきます。
@@ -40,6 +40,9 @@ https://malaybaku.github.io/VMagicMirror/
 
 ## まとめ
 これで３Dキャラクターを動かす準備が整いました。次は録画用ソフトを使って動画を収録していきましょう。
+
+## 参考記事
+https://mikune.com/3tene-cevio-ripsync-obs-studio-settings/#toc5
 
 :::message
 この本は現在執筆中です。いいねで応援していただけると励みになります。
