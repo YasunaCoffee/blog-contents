@@ -55,7 +55,7 @@ VrewにはBGMなどの音声や画像も配置できるのでぜひいろいろ�
 
 これで編集した動画をYoutubeにアップロードすれば解説系AITuberの完成です！
 ここまでおつかれさまでした！
-https://www.youtube.com/
+https://www.youtube.com/@sns-university
 
 :::message
 この本は2024年3月31日まで、公開レビュー中です。
