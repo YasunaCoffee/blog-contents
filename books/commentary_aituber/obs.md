@@ -42,6 +42,10 @@ OBSの「コントロール」パネルから「設定」を選びます。
 設定画面が表示されたら左から「音声」を選びます。
 そして、以下のように「詳細設定」のモニタリングデバイスを「**VoiveMeeter Input**」にします。
 ![](https://storage.googleapis.com/zenn-user-upload/a5ff349e3a03-20240219.png)
+
+音声を再生して3Dキャラクターが以下のように動いたら設定は完了です。
+https://github.com/YasunaCoffee/blog-contents/issues/3#issuecomment-1951752137
+
 :::message
 この本は現在執筆中です。いいねで応援していただけると励みになります。
 :::
