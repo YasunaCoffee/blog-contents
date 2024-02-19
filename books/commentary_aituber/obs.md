@@ -69,5 +69,8 @@ OBS内でメディアソースにある音声を再生すると動く様子が�
 次はYoutubeに公開するのを想定して、直感的で使いやすい動画編集ソフトウェアを紹介します。
 
 :::message
-この本は現在執筆中です。いいねで応援していただけると励みになります。
+この本は2024年3月31日まで、公開レビュー中です。
+
+以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
 :::
+https://docs.google.com/forms/d/e/1FAIpQLSefgnE4f4JXOjQ9XH_x7hssdCXmhv8SzDeehOaq71OMSwEKbw/viewform

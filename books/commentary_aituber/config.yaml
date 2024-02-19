@@ -1,6 +1,7 @@
 title: "解説系AITuberを作ろう！"
-summary: "3Dキャラクターを作成し、ChatGPTをもとに作った台本からAI音声を作成します。Vtuber用のソフトウェアで3Dキャラクターの口の動きと音声をざっくり合わせます。その様子を録画し、簡単な動画編集をしてYoutube用の動画を作成します。"
-topics: ["ai", "aituber", "youtube"] # トピック（5つまで）
+summary: "プログラミングの知識が不要な「**解説系AITuberの作り方**」について紹介しています。1.ChatGPTで作った台本からAI音声を作成します。2.オリジナル3Dキャラクターを作成します。3Dキャラクターの口の動きと音声を合わせて録画します。
+3.テロップを入れてYoutube用の動画を作成します。"
+topics: ["生成ai", "aituber", "youtube"] # トピック（5つまで）
 published: false # falseだと下書き
 price: 0 # 有料の場合200〜5000
 chapters:

@@ -23,11 +23,14 @@ VrewではAIを使って上の画像のように簡単に自動字幕を入れ�
 動画を読み込んで、ファイル変換がでてきたら「変換」を押します。
 ![](https://storage.googleapis.com/zenn-user-upload/764467bdb6b7-20240219.png)
 次に、「動画を読み込む」で「**音声分析をする**」で**日本語**を選択しておきます。
+また、エンジンにOpenAIの音声認識AIの「**Whisper**」を選んでおきましょう。
 
+
+![](https://storage.googleapis.com/zenn-user-upload/040280a54e2f-20240219.png)
 必須ではありませんが、
 txtファイルやテキストの原稿がある場合は、字幕の精度が上がります。
 詳細設定から「**原稿を読み込む**」をクリックします。
-![](https://storage.googleapis.com/zenn-user-upload/8d8c3a23f902-20240219.png)
+
 txtファイルやテキストの原稿を読み込みましょう。
 ![](https://storage.googleapis.com/zenn-user-upload/10c3a018f9c9-20240219.png)
 原稿が読み込めたら「確認」をクリックします。
@@ -55,5 +58,8 @@ VrewにはBGMなどの音声や画像も配置できるのでぜひいろいろ�
 https://www.youtube.com/
 
 :::message
-この本は現在執筆中です。いいねで応援していただけると励みになります。
+この本は2024年3月31日まで、公開レビュー中です。
+
+以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
 :::
+https://docs.google.com/forms/d/e/1FAIpQLSefgnE4f4JXOjQ9XH_x7hssdCXmhv8SzDeehOaq71OMSwEKbw/viewform
