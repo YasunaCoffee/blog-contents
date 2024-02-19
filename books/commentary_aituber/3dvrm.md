@@ -1,5 +1,5 @@
 ---
-title: "オリジナル3Dキャラクターの作成しよう"
+title: "オリジナル3Dキャラクターを作成しよう"
 ---
 # はじめに
 ![](https://storage.googleapis.com/zenn-user-upload/6d76c07dab29-20240219.png)
