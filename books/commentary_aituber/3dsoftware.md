@@ -2,7 +2,7 @@
 title: "3Dキャラを動かすソフトを導入しよう"
 ---
 # はじめに
-この章では音声ファイルをもとに3Dキャラクターを動かすためのソフトを導入していきます。
+この章では音声ファイルをもとに3Dキャラクターの口を動かすためのソフトを導入していきます。
 Windows向けソフトウェア「[**VMagicMirror**](https://booth.pm/ja/items/1272298)」を以下からダウンロードしていきいましょう。
 基本的に無料で使うことができます。詳しくは規定を読んでくださいね。
 https://booth.pm/ja/items/1272298
@@ -25,7 +25,7 @@ https://malaybaku.github.io/VMagicMirror/get_started/
 
 ## 再生した音声と「リップシンク」する方法
 ここでは、音声生成した音声ファイルと3Dキャラクターの口の動きを合わせる設定をしていきます。
-中に人間のいるようなVtuberのようにぴったり合うわけではありませんが、ここでは音声と口の動きがざっくりと合えばそれでオッケーとします。
+人の動きに合わせて動くVtuberのようにぴったり合うわけではありませんが、ここでは**音声と口の動きがざっくりと合えばそれでオッケー**とします。
 
 :::message
 **リップシンク**
@@ -42,7 +42,9 @@ https://malaybaku.github.io/VMagicMirror/get_started/
 ・リップシンク(**VoiceMeeter Outputを選択**)
 :::
 
-リップシンクの右側の入力先の選択では先ほどインストールしたVOICE MEETER BANANAの「Voice Meeter Output」を選んでおきましょう。
+リップシンクの右側の入力先の選択では
+先ほどインストールしたVOICE MEETER BANANAの
+「**Voice Meeter Output**」を選んでおきましょう。
 こちらが表示されない場合はPCを再起動するのもおすすめです。
 ![](https://storage.googleapis.com/zenn-user-upload/ccb843003957-20240217.png)
 
