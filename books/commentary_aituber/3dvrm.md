@@ -1,8 +1,9 @@
 ---
-title: "オリジナル3Dキャラクターの作成"
+title: "オリジナル3Dキャラクターの作成しよう"
 ---
 # はじめに
-この章ではVroid Studioというソフトウェアを使った3Dキャラクターの作り方を簡単に紹介していきます。
+![](https://storage.googleapis.com/zenn-user-upload/6d76c07dab29-20240219.png)
+この章では[Vroid Studio](https://vroid.com/studio)というソフトウェアを使った3Dキャラクターの作り方を簡単に紹介していきます。
 :::message
 **この章の目的：3Dキャラクターを作って、とりあえず動かしてみる**
 :::
@@ -11,8 +12,7 @@ title: "オリジナル3Dキャラクターの作成"
 ![](https://storage.googleapis.com/zenn-user-upload/19d7d52f38c4-20240215.png)
 
 解説系AITuberには、話が聞きたくなるような魅力的なキャラクターの存在が不可欠です。
-そこで、作ったAITuberのコンセプトから
-[Vroid Studio](https://vroid.com/en/studio)というアプリでみんなから愛されるようなキャラクターを作ってみました。
+この章ではAITuberのコンセプトから、[Vroid Studio](https://vroid.com/en/studio)というアプリでみんなから愛されるようなキャラクターを作ってみましょう。
 
 :::message
 **Vroid Studioとは**
@@ -27,6 +27,7 @@ VRoid Studioは、人型キャラクター（キャラクター）の3Dモデル
 
 ## Vroid Studioの導入
 以下のリンクから、無料でVroid Studioのソフトウェアをダウンロードできますので、**Windows / Mac / Steam / iPad**のお好みのデバイスへ早速ダウンロードしてみてください。
+ちなみに私はiPadアプリ版を使っています。
 https://vroid.com/ja/studio
 
 ## Vroid Studioおすすめのチュートリアル
@@ -75,21 +76,27 @@ https://vroid.pixiv.help/hc/ja/articles/4405597663385-VRoid%E3%82%92%E3%81%AF%E3
 
 AITuberを作るにはまだまだ工程が多いですので、このように**キャラクターができた時点で動かしてみる**のもモチベーションが高まるのでおすすめです。
 
-## Canvaで背景画像づくり
-![](https://storage.googleapis.com/zenn-user-upload/1e2c999c7d20-20240215.png)
-:::message
-**目的：遊びに来た気持ちになる**
-:::
-オリジナル感を出すために背景も作りました。この子の学校の図書室に遊びに来たという設定で選びました。
-
-背景はCanvaというアプリで作成しました。
-https://www.canva.com/
-
 ## VRMファイルの書き出しをしよう
 ３Dキャラクターが完成したらVRMという形式のファイルを書き出します。
 iPadOSの場合は右上の共有アイコンから「VRMエクスポート」を選択して保存します。
 書き出したVRMファイルをパソコンにも保存しておきましょう。
 ![](https://storage.googleapis.com/zenn-user-upload/1179cfddaa8d-20240218.png)
+
+## おまけ：Canvaで背景画像づくり
+![](https://storage.googleapis.com/zenn-user-upload/1e2c999c7d20-20240215.png)
+誰でも簡単にデザインができる無料ツール[Canva](https://www.canva.com/)を使って、背景やYoutubeサムネイルのグラフィック素材を作っていきます。
+https://www.canva.com/
+私はデザイナーではないので、直感的に使えるCanvaが結構気に入っています。
+
+:::message
+**目的：AITuberが引き立つグラフィック素材を作る**
+:::
+AITuberの世界観を作るために背景を作りました。
+一緒に図書室に遊びに来たという設定です。
+
+ちなみにYoutube動画のサムネイルもこのCanvaで作成しています。
+https://www.youtube.com/watch?v=lRAEZifrwbI&t=12s
+[Canva](https://www.canva.com/)は無料で使えるので、グラフィック素材を作るときに使ってみてくださいね。
 
 ## まとめ
 ここで３Dキャラクターを作って簡単に動かすことができました。

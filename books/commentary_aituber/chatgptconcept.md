@@ -5,8 +5,30 @@ title: "ChatGPTとチャンネル紹介を作ろう"
 この章では、解説系AITuberの動画を投稿していくための**Youtubeチャンネルの紹介づくり**の流れを紹介しています。
 いろんな方法があるかと思いますので参考程度に見ていただけるといいと思います。
 
-Youtubeチャンネルコンセプトづくりをするために**月額有料プランのChatGPT-4**を使っていきます。
+Youtubeチャンネルコンセプトづくりをするために**月額有料プランのChatGPT4**を使っていきます。
 https://chat.openai.com/
+
+## ChatGPT Plusとは
+ChatGPT Plusについて簡単に紹介します。
+ChatGPT Plusに加入すると使えるChatGPT4は、**かなり賢い**のでまだの方は有料プランに入っておきましょう。
+
+:::message
+**ChatGPT Plus（プラス）プラン**
+月額費用: 20ドル
+※OpenAIのウェブサイトや公式発表で最新の価格を確認してください。価格は変動することがあります。
+
+主な特徴:
+優先アクセス: サーバーが混雑している時でも、ChatGPT Plusユーザーは待ち時間なく利用できることが多いです。
+
+高速な応答: 有料プランでは、応答速度が向上し、より迅速に対話が可能です。
+:::
+https://openai.com/blog/chatgpt-plus
+https://openai.com/chatgpt/pricing
+
+# YoutubeチャンネルコンセプトをChatGPT4と作ろう
+それではChatGPT4と一緒に解説系AITuberのためのチャンネルコンセプトを作っていきいましょう。
+以下のチャンネルのコンセプトの実践例をもとに解説していきます。
+https://www.youtube.com/@sns-university
 
 :::message
 **この章の目的：自分で考えたコンセプトをもとにChatGPTでチャンネル紹介を完成させる**
@@ -17,7 +39,7 @@ https://chat.openai.com/
 
 わたしは最近SNSマーケティングに興味があるので、
 マーケティングを勉強するためのアウトプットとして
-**Youtubeチャンネルを作って解説系AITuberに話してもらおう**と考えました。
+Youtubeチャンネルを作って**解説系AITuberに話してもらおう**と考えました。
 
 コンセプトを作るためのプロンプトはこんな感じになります。
 
