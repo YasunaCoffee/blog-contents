@@ -1,5 +1,5 @@
 ---
-title: "テロップを入れてAITuberっぽくしよう"
+title: "AI字幕を入れてAITuberっぽくしよう"
 ---
 # はじめに
 ![](https://storage.googleapis.com/zenn-user-upload/ec0a10d3385f-20240215.png)
@@ -10,7 +10,7 @@ https://vrew.voyagerx.com/ja/
 
 基本的に無料で使うことができます。
 
-# 動画にテロップを入れる
+# AI字幕機能で動画にテロップを入れる
 ![](https://storage.googleapis.com/zenn-user-upload/3bc2913ecac4-20240217.png)
 VrewではAIを使って上の画像のように簡単に自動字幕を入れることができます。
 
