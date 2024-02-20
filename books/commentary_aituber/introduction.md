@@ -71,10 +71,3 @@ https://bookplus.nikkei.com/atcl/catalog/23/10/31/01079/
 - 各ソフトウェアの詳しい説明や規約
 
 それでは、解説系AITuberを作るための準備を初めていきましょう！
-
-:::message
-この本は2024年3月31日まで、公開レビュー中です。
-
-以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
-:::
-https://docs.google.com/forms/d/e/1FAIpQLSefgnE4f4JXOjQ9XH_x7hssdCXmhv8SzDeehOaq71OMSwEKbw/viewform

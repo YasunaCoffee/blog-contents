@@ -173,10 +173,3 @@ AI技術を駆使して、マーケティング活動を効率化し、より多
 ## まとめ
 かなりいい感じになりました！これでチャンネル紹介の素案は完成にしましょう。
 次は、この素案からチャンネル紹介の台本を作っていきましょう。
-
-:::message
-この本は2024年3月31日まで、公開レビュー中です。
-
-以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
-:::
-https://docs.google.com/forms/d/e/1FAIpQLSefgnE4f4JXOjQ9XH_x7hssdCXmhv8SzDeehOaq71OMSwEKbw/viewform

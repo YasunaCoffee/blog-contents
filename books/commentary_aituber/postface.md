@@ -32,6 +32,7 @@ https://x.com/youchusu/status/1759216215804051942?s=46&t=EZVv6-sudhRQuN9Z1Umo8g
 
 :::message
 この本は2024年3月31日まで、公開レビュー中です。
+協力してくださった方へAITuberからちょっとした特典も準備しています。
 
 以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
 :::

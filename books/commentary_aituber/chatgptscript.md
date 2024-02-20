@@ -216,11 +216,3 @@ https://www.youtube.com/watch?v=Z9F20UBlIeA
 ## まとめ
 これでAITuberが話すための台本を作ることができました！
 続いては、この台本を話してくれる３Dキャラクターを作っていきましょう。
-
-
-:::message
-この本は2024年3月31日まで、公開レビュー中です。
-
-以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
-:::
-https://docs.google.com/forms/d/e/1FAIpQLSefgnE4f4JXOjQ9XH_x7hssdCXmhv8SzDeehOaq71OMSwEKbw/viewform

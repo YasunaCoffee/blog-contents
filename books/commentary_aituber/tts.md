@@ -52,10 +52,3 @@ https://huggingface.co/RinneAi/RinneVoiceSet
 
 # まとめ
 次回は作った音声ファイルをもとに、３Dキャラクターが口を動かすためのソフトウェアを導入していきます。
-
-:::message
-この本は2024年3月31日まで、公開レビュー中です。
-
-以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
-:::
-https://docs.google.com/forms/d/e/1FAIpQLSefgnE4f4JXOjQ9XH_x7hssdCXmhv8SzDeehOaq71OMSwEKbw/viewform
