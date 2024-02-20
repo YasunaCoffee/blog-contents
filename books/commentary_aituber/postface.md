@@ -29,11 +29,3 @@ Zennやnoteで技術的なアウトプットをするのと同じ感覚で、
 - 著者の解説系AITuberの紹介
 
 https://x.com/youchusu/status/1759216215804051942?s=46&t=EZVv6-sudhRQuN9Z1Umo8g
-
-:::message
-この本は2024年3月31日まで、公開レビュー中です。
-協力してくださった方へAITuberからちょっとした特典も準備しています。
-
-以下のフォームにあるGithubにてIssueやプルリクをお待ちしています。
-:::
-https://docs.google.com/forms/d/e/1FAIpQLSefgnE4f4JXOjQ9XH_x7hssdCXmhv8SzDeehOaq71OMSwEKbw/viewform
