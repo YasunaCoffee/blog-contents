@@ -21,16 +21,15 @@ https://zenn.dev/yasuna/articles/cc99387fcd3989
 https://developers.freee.co.jp/entry/2022/12/11/090000
 
 今回はStablity AIでキャラクターの三面図をつくっていきます。
-https://ja.stability.ai/
-
-## Dream Studioで作る
-前回はAmazon Bedrockではテキストからイメージを作成することができました！
-ここではStable DiffutionのDream Studioから三面図を作っていきます。
-
 :::message
 **三面図とは**
 設計図を理解しやすく、詳細に見せるため方法。物体を正確に描写し、視覚的に分かりやすく伝えること。
 :::
+
+## Dream Studioで作る
+前回はAmazon Bedrockではテキストからイメージを作成することができました！
+ここではStable DiffutionのDream Studioから三面図を作っていきます。
+https://ja.stability.ai/
 
 前回のVtuberを生成したプロンプトに三面図の記述を追加して実行してみました。
 
@@ -48,6 +47,11 @@ https://ja.stability.ai/
 ![](https://storage.googleapis.com/zenn-user-upload/d710ddc2f29d-20231001.png)
 
 **すばらしい出来栄え！！！！**
+
+## Blenderの導入
+三面図が出来上がったら、Vtuberのモデルを作っていきます。
+今回はBlenderというオープンソースのソフトウェアをダウンロードして使っていきます。
+https://www.blender.jp/
 
 
 
