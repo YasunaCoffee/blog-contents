@@ -312,8 +312,15 @@ https://mermaid.live/
 要件定義ができたのでモックとしてv0でUIを作ってみました。
 https://x.com/yasun_ai/status/1874960352745832685
 
-![](https://storage.googleapis.com/zenn-user-upload/3e1b26fc6b6c-20250106.png)
-![](https://storage.googleapis.com/zenn-user-upload/25cf19dfa049-20250106.png)
-
 さすがv0、なかなかいい感じです！
 https://v0.dev/
+
+# まとめ
+Cursorでアプリケーションについて整理しながら要件定義をつくり、v0でUIを作ってみました。
+このままv0からCursorに移行してコードを書き進められるのか！？とReactを書いたことがない私にとっては
+不安ではありますが、ここまではわりとスムーズにできたのでこれから頑張っていきたいですね！
+
+Xで個人開発の進捗をつぶやいていますのでぜひフォローして応援よろしくお願いします！
+https://x.com/yasun_ai
+
+ここまで読んでいただきありがとうございました！
