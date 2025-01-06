@@ -3,7 +3,7 @@ title: "AIと個人開発したくなったらまずCursorで要件定義だ！"
 emoji: "🎉"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [個人開発, AI, 要件定義]
-published: false
+published: true
 ---
 
 # はじめに
