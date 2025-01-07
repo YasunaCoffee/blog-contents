@@ -328,4 +328,4 @@ https://x.com/yasun_ai
 なんと24時間で100いいねいただくことができました！ほんとうにたくさんの方に読んでいただきほんとうにありがとうございます！
 
 最近個人開発VTuberもやっているのでこちらで実際のCursorの画面をお見せしながら解説配信を行ったのでよろしければ合わせてご覧ください～！
-https://x.com/yasun_ai/status/1876655091505373367
+https://www.youtube.com/live/ebYDj7Jhy0s
