@@ -102,7 +102,7 @@ AIを活用したアプリというとどうしても業務効率化など便利
 ![](https://storage.googleapis.com/zenn-user-upload/7f56ef309fe7-20250204.png)
 
 1. **フロントエンド層**
-   
+   ![](https://storage.googleapis.com/zenn-user-upload/9bf01766d9c0-20250204.png)
    **Reactアプリケーション (UI)**
    - キャラクター選択画面
    - チャットインターフェース
@@ -140,7 +140,7 @@ AIを活用したアプリというとどうしても業務効率化など便利
    - **EmotionContext**: 感情状態の追跡
 
 2. **バックエンド層 (Google Cloud)**
-   
+   ![](https://storage.googleapis.com/zenn-user-upload/2d682b4f96b8-20250204.png)
    **Cloud Run**
    - **サーバー**:
      - フロントエンドからのリクエスト処理
@@ -161,7 +161,7 @@ AIを活用したアプリというとどうしても業務効率化など便利
      - バレンタイン前日のストーリー展開の生成
 
 3. **永続化層 (LocalStorage)**
-   
+   ![](https://storage.googleapis.com/zenn-user-upload/46c08287374d-20250204.png)
    **保存データ**
    - **ゲーム進行状態**:
    - **ユーザープロフィール**:
