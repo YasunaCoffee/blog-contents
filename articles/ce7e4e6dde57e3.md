@@ -7,8 +7,8 @@ published: false
 ---
 ## はじめに
 
-本記事はAI Agent Hackathon with Google Cloudへの参加条件を満たすために執筆しています。
-https://zenn.dev/hackathons/2024-google-cloud-japan-ai-hackathon
+本記事は[AI Agent Hackathon with Google Cloud](https://zenn.dev/hackathons/2024-google-cloud-japan-ai-hackathon)への参加条件を満たすために執筆しています。
+
 
 こんにちは、個人開発者のyasunaです。
 今回は本ハッカソンによせて、個性豊かな３人の女子高生たちとバレンタインデーノリを楽しむエンタメチャットアプリ「にーいちよん」を開発しました。
