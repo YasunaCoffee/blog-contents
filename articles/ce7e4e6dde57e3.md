@@ -257,9 +257,14 @@ public async generateDiaryContent(thoughts: string, character: BaseCharacter): P
 ハッカソンに参加させていただく際にGoogle Cloudのクレジットをいただくことができ今回初めてCloud Run, Cloud Build, Vertex AI Studioを使った
 実装をすることができました！機会をいただき本当にありがとうございます！
 
+このアプリケーション開発においては以下の2冊を参考にさせていただきました
+[AITuberを作ってみたらプロンプトエンジニアリングがよくわかった件](https://bookplus.nikkei.com/atcl/catalog/24/11/07/01683/)
+[LangChainとLangGraphによるRAG・AIエージェント［実践］入門](https://gihyo.jp/book/2024/978-4-297-14530-9)
+
 なお個人的にこのアプリケーションのデモを2月14日に公開する予定ですので
 ぜひXをフォローしていただけると嬉しいです。
 
 ここまで読んでいただきありがとうございました！ハッピーバレンタイン！
 
 https://x.com/yasun_ai/status/1885981953620602884
+
