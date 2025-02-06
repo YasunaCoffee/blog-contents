@@ -165,11 +165,10 @@ AIを活用したアプリというとどうしても業務効率化など便利
 
 の３段階で行われます。
 
-まずはユーザープロフィールの分析です。コードを見ていただいたほうが早いので以下に記載します。
-```typescript
+まずはユーザープロフィールの分析です。プロンプトを見ていただいたほうが早いので以下に記載します。
 
-  public async analyzeMaleProfile(userProfile: UserProfile): Promise<string> {
-    const prompt = `
+### 1. ユーザーの分析(心理カウンセラー)
+```
       あなたは心理カウンセラーとして、以下の人物の性格分析を行ってください。
       分析結果は、後で女子高生が片思いの気持ちを書くための参考情報として使用されます。
 
@@ -200,16 +199,11 @@ AIを活用したアプリというとどうしても業務効率化など便利
       - アプローチされた時の反応
 
       分析は具体的なエピソードを交えて、200文字程度でまとめてください。
-      `;
-    return this.sendMessage(prompt, '心理カウンセラー');
-  }
 ```
-
+### 2. 思考生成(キャラクター)
 ユーザープロフィールの分析ができたら次に結果をもとにキャラクターが思考生成します。
 
-```typescript
-public async generateFemaleThoughts(maleProfile: string, character: BaseCharacter): Promise<string> {
-  const prompt = `
+```
     あなたは${character.name}として、片思いの気持ちを独白形式で表現してください。
     ${character.description}という設定を意識して書いてください。
 
@@ -235,15 +229,10 @@ public async generateFemaleThoughts(maleProfile: string, character: BaseCharacte
 
     それぞれの場面で感じた気持ちや印象を、${character.name}らしい言葉遣いで表現してください。
     全体で300文字程度にまとめてください。
-    `;
-    return this.sendMessage(prompt, character.name);
-  }
 ```
-
+3. 日記作成(キャラクター)
 最後にバレインタイン前日という設定で日記の文体を整えます。
-```typescript
-  public async generateDiaryContent(thoughts: string, character: BaseCharacter): Promise<string> {
-    const prompt = `
+```
       あなたは${character.name}として、2025年2月13日の日記を書いてください。
       ${character.description}という設定を意識して書いてください。
 
@@ -267,7 +256,6 @@ public async generateFemaleThoughts(maleProfile: string, character: BaseCharacte
       - 学校生活の細かい描写
       - 片思いの気持ちの表現
       - 明日のバレンタインへの期待と不安
-      - キャラクターの特徴的な行動（例：TikTok撮影、わたあめ作り、ライブ参加など）
 
       4. 表現上の注意点
       - 絵文字は使用しない
@@ -277,9 +265,6 @@ public async generateFemaleThoughts(maleProfile: string, character: BaseCharacte
       - キャラクターの口癖や特徴的な表現を適度に使用
 
       日記を書く際は、バレンタイン前日という特別な日であることを意識し、キャラクターの個性が強く出るように書いてください。
-      `;
-    return this.sendMessage(prompt, character.name);
-  }
 ```
 
 このように段階的に思考をしてつなげることであなたとキャラクターが生きる学校生活の日記を作成することができます。
