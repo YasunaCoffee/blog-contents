@@ -23,7 +23,7 @@ published: false
 AIエージェントハッカソンへの参加プロジェクトをAIエージェントで作るというのも私の中でのもうひとつのチャレンジでした。
 
 ### デモ動画
-
+https://www.youtube.com/watch?v=GFBH4dtzuZE
 
 ## ユーザー像
 それでは、前置きはこのくらいにして、本アプリのユーザー像について解説します。
@@ -167,24 +167,42 @@ AIを活用したアプリというとどうしても業務効率化など便利
 
 まずはユーザープロフィールの分析です。コードを見ていただいたほうが早いので以下に記載します。
 ```typescript
-public async analyzeMaleProfile(userProfile: UserProfile): Promise<string> {
-  const prompt = `
-    あなたは心理カウンセラーとして、以下の人物の性格分析を行ってください。
-    分析結果は、後で女子高生が片思いの気持ちを書くための参考情報として使用されます。
 
-    対象の人物：
-    名前：${userProfile.name}さん
-    プロフィール：${userProfile.description}
+  public async analyzeMaleProfile(userProfile: UserProfile): Promise<string> {
+    const prompt = `
+      あなたは心理カウンセラーとして、以下の人物の性格分析を行ってください。
+      分析結果は、後で女子高生が片思いの気持ちを書くための参考情報として使用されます。
 
-    以下の項目について、具体的に分析してください：
-    1. 性格特性
-    2. 趣味・興味
-    3. 学校生活での様子
-    4. 恋愛傾向
-    ...
-  `;
-  return this.sendMessage(prompt, '心理カウンセラー');
-}
+      対象の人物：
+      名前：${userProfile.name}さん
+      プロフィール：${userProfile.description}
+
+      以下の項目について、具体的に分析してください：
+
+      1. 性格特性
+      - 外向性/内向性
+      - 几帳面さ/おおらかさ
+      - コミュニケーションスタイル
+
+      2. 趣味・興味
+      - 好きそうな活動
+      - 休日の過ごし方
+      - 興味を持ちそうな話題
+
+      3. 学校生活での様子
+      - 友人関係
+      - 授業中の態度
+      - 部活やイベントでの行動
+
+      4. 恋愛傾向
+      - 異性との関わり方
+      - 恋愛に対する考え方
+      - アプローチされた時の反応
+
+      分析は具体的なエピソードを交えて、200文字程度でまとめてください。
+      `;
+    return this.sendMessage(prompt, '心理カウンセラー');
+  }
 ```
 
 ユーザープロフィールの分析ができたら次に結果をもとにキャラクターが思考生成します。
@@ -199,34 +217,69 @@ public async generateFemaleThoughts(maleProfile: string, character: BaseCharacte
     ${maleProfile}
 
     以下の時間帯ごとの心情を、具体的な場面や行動とともに書いてください：
+
     1. 朝
+    - 登校時の期待感
+    - 朝の挨拶や廊下でのすれ違い
+    - 朝礼や HR での様子
+
     2. 昼
+    - 授業中にこっそり見つめる様子
+    - 昼休みの様子
+    - 共同作業や当番活動での出来事
+
     3. 放課後
-    ...
-  `;
-  return this.sendMessage(prompt, character.name);
-}
+    - 部活動や委員会活動での関わり
+    - 下校時の様子
+    - バレンタインのチョコレート作りの計画
+
+    それぞれの場面で感じた気持ちや印象を、${character.name}らしい言葉遣いで表現してください。
+    全体で300文字程度にまとめてください。
+    `;
+    return this.sendMessage(prompt, character.name);
+  }
 ```
 
 最後にバレインタイン前日という設定で日記の文体を整えます。
 ```typescript
-public async generateDiaryContent(thoughts: string, character: BaseCharacter): Promise<string> {
-  const prompt = `
-    あなたは${character.name}として、2025年2月13日の日記を書いてください。
-    ${character.description}という設定を意識して書いてください。
+  public async generateDiaryContent(thoughts: string, character: BaseCharacter): Promise<string> {
+    const prompt = `
+      あなたは${character.name}として、2025年2月13日の日記を書いてください。
+      ${character.description}という設定を意識して書いてください。
 
-    今日の出来事と気持ち：
-    ${thoughts}
+      今日の出来事と気持ち：
+      ${thoughts}
 
-    以下の要素を含めて日記を書いてください：
-    1. 日記の基本要素
-    2. 文体とトーン
-    3. 内容の構成
-    4. 表現上の注意点
-    ...
-  `;
-  return this.sendMessage(prompt, character.name);
-}
+      以下の要素を含めて日記を書いてください：
+
+      1. 日記の基本要素
+      - 2025年2月13日の日付
+      - 天気と気分
+      - 時系列に沿った出来事の記述
+
+      2. 文体とトーン
+      - ${character.name}らしい言葉遣い
+      - 独り言のような親密な文体
+      - 繊細な感情表現
+
+      3. 内容の構成
+      - 朝から夜までの時間の流れ
+      - 学校生活の細かい描写
+      - 片思いの気持ちの表現
+      - 明日のバレンタインへの期待と不安
+      - キャラクターの特徴的な行動（例：TikTok撮影、わたあめ作り、ライブ参加など）
+
+      4. 表現上の注意点
+      - 絵文字は使用しない
+      - 300文字程度の長さ
+      - 情景描写を交えた表現
+      - 心情の変化がわかる展開
+      - キャラクターの口癖や特徴的な表現を適度に使用
+
+      日記を書く際は、バレンタイン前日という特別な日であることを意識し、キャラクターの個性が強く出るように書いてください。
+      `;
+    return this.sendMessage(prompt, character.name);
+  }
 ```
 
 このように段階的に思考をしてつなげることであなたとキャラクターが生きる学校生活の日記を作成することができます。
