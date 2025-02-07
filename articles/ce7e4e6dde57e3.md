@@ -16,8 +16,6 @@ published: false
 
 ## 開発期間
 このアプリは2025年になってから約4週間で開発しました。(1日2~3時間程度)
-この短期間で開発できた大きな要因はCursor Composer Agentを使用したことです。
-AIエージェントハッカソンへの参加プロジェクトをAIエージェントで作るというのも私の中でのもうひとつのチャレンジでした。
 
 ### デモ動画
 https://www.youtube.com/watch?v=GFBH4dtzuZE
@@ -99,19 +97,13 @@ AIを活用したアプリというとどうしても業務効率化など便利
 
 ## システム構成
 本アプリのシステム構成を紹介します。
-![](https://storage.googleapis.com/zenn-user-upload/7f56ef309fe7-20250204.png)
+![](https://storage.googleapis.com/zenn-user-upload/a67260dd97d4-20250207.png)
 
 1. **フロントエンド層**
-   ![](https://storage.googleapis.com/zenn-user-upload/9bf01766d9c0-20250204.png)
+![](https://storage.googleapis.com/zenn-user-upload/4700182e3c2e-20250207.png)
    **Reactアプリケーション (UI)**
    
    **サービスレイヤー**
-   - GameService(ゲームサービス)
-     - ゲームフェーズの管理
-     - キャラクター選択の制御
-     - ハートゲージの更新
-     - イベントトリガーの管理
-
    - ChatService(テキスト生成エージェント)
      - 対話履歴の管理
      - プロンプトの生成
@@ -129,13 +121,8 @@ AIを活用したアプリというとどうしても業務効率化など便利
      - キャラクター別係数の適用
      - 閾値管理
 
-    状態管理コンテキスト
-   - GameContext: ゲーム全体の状態
-   - ChatContext: 対話の文脈情報
-   - EmotionContext: 感情状態の追跡
-
 2. **バックエンド層 (Google Cloud)**
-   ![](https://storage.googleapis.com/zenn-user-upload/2d682b4f96b8-20250204.png)
+![](https://storage.googleapis.com/zenn-user-upload/1c287d723acb-20250207.png)
    **Cloud Run**
    - サーバー
      - フロントエンドからのリクエスト処理
@@ -147,10 +134,9 @@ AIを活用したアプリというとどうしても業務効率化など便利
    - 日記生成
 
 3. **永続化層 (LocalStorage)**
-   ![](https://storage.googleapis.com/zenn-user-upload/46c08287374d-20250204.png)
-
+![](https://storage.googleapis.com/zenn-user-upload/76766942b261-20250207.png)
 # AIエージェントの実装
-このアプリケーションでは、日記生成エージェントと感情認識型対話エージェントの２つを実装しているので、詳しく紹介させてください。
+このアプリケーションでは、日記生成エージェントと感情認識型対話エージェントの２つを実装しています。
 
 ## 日記生成エージェントについて(DiaryService)
 
