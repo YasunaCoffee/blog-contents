@@ -271,7 +271,7 @@ ${thoughts}
 感情分析結果に基づいてプロンプトを動的に生成しています。
 
 ## 謝辞
-ハッカソンに参加させていただく際にGoogle Cloudのクレジットをいただくことができ今回初めてCloud Run, Cloud Build, Vertex AI Studioを使った
+ハッカソンににて今回初めてCloud Run, Cloud Build, Vertex AI Studioを使った
 実装をすることができました！機会をいただき本当にありがとうございます！
 
 このアプリケーション開発においては以下の2冊を参考にさせていただきました
