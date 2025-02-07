@@ -3,7 +3,7 @@ title: "エンタメチャットアプリ「にーいちよん」による課題
 emoji: "🍫"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [ai, agent, gemini]
-published: false
+published: true
 ---
 ## はじめに
 本記事は[AI Agent Hackathon with Google Cloud](https://zenn.dev/hackathons/2024-google-cloud-japan-ai-hackathon)への参加のため執筆しています。
